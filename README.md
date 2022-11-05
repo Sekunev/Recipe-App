@@ -1,6 +1,6 @@
 # Recipe App
 
-### Check The Live Website ➡️ [Live Website](https://sekunev-random-user-app-v2.netlify.app/)
+### Check The Live Website ➡️ [Live Website](https://sekunev-recipe-app.netlify.app/)
 
 ### Description
 
@@ -8,7 +8,7 @@ Project aims to create a Recipe App.
 
 ### Visualization of the Website
 
-![image](https://github.com/Sekunev/Random-User-V/blob/main/src/Animation.gif)
+![image](https://github.com/Sekunev/Recipe-App-2/blob/main/src/Animation.gif)
 
 ### Project Skeleton
 
