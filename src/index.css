@@ -1,0 +1,232 @@
+* {
+  /* font-family: "Girassol", cursive; */
+}
+@font-face {
+  font-family: constella;
+  src: url(./assets/constella.ttf);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* overflow: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.into {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 5rem;
+  border-radius: 10%;
+  background-color: rgba(255, 246, 127, 0.499);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.wrapper {
+  /* width: 100vw; */
+  /* padding: 3rem; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758__340.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+input {
+  /* border-radius: 10px; */
+  padding: 8px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+}
+/* ***navbar*** */
+
+.navbar {
+  background-color: rgba(255, 246, 127, 0.499);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 4rem;
+  flex-wrap: wrap;
+  font-family: "Girassol", cursive;
+  font-size: 2rem;
+}
+.linksdiv {
+  display: flex;
+  justify-content: space-around;
+}
+.links {
+  text-decoration: none;
+  color: rgb(138, 32, 32);
+  font-weight: 600;
+}
+.navbar img {
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+/* *** HOME *** */
+.home {
+  background-color: #001253;
+  /* height: 100vh; */
+}
+.home h3 {
+  color: rgb(138, 32, 32);
+}
+.home h1 {
+  font-family: constella;
+  font-size: 5rem;
+  /* margin-top: 1rem; */
+  color: rgba(255, 246, 127, 0.499);
+  font-weight: 500;
+  word-spacing: 1rem;
+}
+.home--form {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 1rem auto;
+  border: 1px solid rgba(255, 246, 127, 0.499);
+  outline: 4px solid rgba(255, 246, 127, 0.499);
+  outline-offset: 5px;
+  border-radius: 10px;
+}
+.home--input {
+  border-radius: none;
+  background-color: antiquewhite;
+  border: none;
+  margin: 5px;
+  width: 30%;
+  display: inline-block;
+}
+.home--button {
+  background-color: rgb(190, 190, 128);
+  width: 10rem;
+  border: none;
+  transition: all 0.2s;
+  margin: 5px;
+  border-radius: 10px;
+}
+.home--button:active {
+  transform: scale(105%);
+}
+.home--select {
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+}
+/* ********homecards***** */
+.homecards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+/*****card**** */
+.card {
+  display: flex;
+  justify-content: center;
+  row-gap: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: "Girassol", cursive;
+}
+/****About***/
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url("https://cdn.pixabay.com/photo/2017/07/07/12/31/lime-2481346__340.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.aboutdiv {
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  font-family: constella;
+  background-color: rgba(201, 142, 65, 0.507);
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+}
+.about h1 {
+  font-size: 5.5rem;
+}
+.about_div {
+  margin: 2rem;
+}
+/* ***detail *** */
+.detail {
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758__340.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detdiv {
+  margin-top: 1rem;
+  background-color: rgba(245, 239, 233, 0.61);
+  /* width: fit-content; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.detail h3 {
+  font-family: "Girassol", cursive;
+}
+.detail img {
+  margin: 1rem;
+  border: 5px solid rgba(0, 0, 0, 0.507);
+  border-radius: 20px;
+}
+/* ***register*** */
+.register {
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/11/11/33/cake-1971552__340.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .navbar {
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2rem;
+  }
+  .home img {
+    max-width: 20rem;
+  }
+  .home Form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+  }
+}
