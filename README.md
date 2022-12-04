@@ -57,4 +57,4 @@ SOLUTION
 
 ### Used in this project
 
-👉 I mastered ReactJS (Router, PrivateRouter, axios, useState, Props, Hook, Postman, Navigate), HTML, CSS, SCSS, Local Storage, Bootstrap and Javascript features in this project. You can see the visual representation of the website above.
+👉 I mastered ReactJS (Router, PrivateRouter, axios, useState, Props, Hook, Postman, Navigate), HTML, CSS, Local Storage, Bootstrap and Javascript features in this project. You can see the visual representation of the website above.
